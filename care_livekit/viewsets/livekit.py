@@ -1,14 +1,14 @@
+from livekit.api import AccessToken, VideoGrants
 from rest_framework import status
 from rest_framework.decorators import action
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.viewsets import GenericViewSet
 
-from livekit.api import AccessToken, VideoGrants
-from livekit.models.call import Call
-from livekit.serializers.livekit import CreateRoomSerializer
-from livekit.settings import plugin_settings as settings
-from livekit.util import generate_room_code
+from care_livekit.models.call import Call
+from care_livekit.serializers.livekit import CreateRoomSerializer
+from care_livekit.settings import plugin_settings as settings
+from care_livekit.util import generate_room_code
 
 
 class LivekitViewset(

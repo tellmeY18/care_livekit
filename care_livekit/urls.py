@@ -1,6 +1,6 @@
 from rest_framework.routers import DefaultRouter
 
-from livekit.viewsets.livekit import LivekitViewset
+from care_livekit.viewsets.livekit import LivekitViewset
 
 router = DefaultRouter()
 

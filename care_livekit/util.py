@@ -1,6 +1,6 @@
 import hashlib
 
-from livekit.settings import plugin_settings as settings
+from care_livekit.settings import plugin_settings as settings
 
 
 def generate_room_code(source_user, target_user):
