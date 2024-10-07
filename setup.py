@@ -18,7 +18,7 @@ requirements = [
     "django-environ",
     "django-filter",
     "jsonschema",
-    "livekit",
+    "livekit-api",
 ]
 
 test_requirements = []
