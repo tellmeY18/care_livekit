@@ -17,4 +17,4 @@ djangorestframework
 django-environ
 django-filter
 jsonschema
-livekit
+livekit-api
