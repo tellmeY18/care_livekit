@@ -24,7 +24,7 @@ To install care livekit, you can add the plugin config in [care/plug_config.py](
 livekit_plug = Plug(
     name="livekit",
     package_name="git+https://github.com/ohcnetwork/care_livekit.git",
-    version="@master",
+    version="@main",
     configs={},
 )
 plugs = [livekit_plug]
